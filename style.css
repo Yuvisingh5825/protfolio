@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+}
+.protflio-container{
+    min-width: .5rem;
+    width:100%;
+    display:flex;
+
+}
+.navlist{
+    display: flex;
+    gap: 3rem;
+    padding:3rem;
+    position:fixed;
+    left:30%;
+}
+.navlist li{
+    list-style: none;
+}
+.navlist a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color:white;
+}
+.left-container{
+    background: rgb(14, 14, 14);
+    width:70%;
+    height:100vh;
+}
+.right-container{
+    background:linear-gradient(-45deg,#3877ff,#262525);
+    width:30%;
+    height:100vh;
+}
+.icons i{
+    color:white;
+    font-size: 1.5rem;
+    display:flex;
+    flex-direction:column;
+    margin-left:2rem;
+    position:absolute;
+    top:45%;
+}
+.content{
+    margin-left: 6rem;
+    position:absolute;
+    top:40%;
+}
+.intro{
+   color:white; 
+   font-size:1.5rem;
+}
+.intro span{
+    color:#5db9ff;
+}
+.content h1{
+    color:#5db9ff;
+    font-size:3.5rem;
+}
+.detail{
+    color:#fff;
+    max-width: 38rem;
+    line-height: 2rem;
+}
+.btn-container :nth-child(1){
+    padding:3px;
+    border-radius: 10px;
+    background: transparent;
+    color:#5db9ff;
+}
+.btn-container :nth-child(2){
+    padding:3px;
+    border-radius: 10px;
+    background: transparent;
+    color:#5db9ff;
+}
+
+.btn-container :nth-child(1):hover{
+    color:black;
+    background-color: #5db9ff;
+}
+.btn-container :nth-child(2):hover{
+    color:black;
+    background-color: #5db9ff;
+}
+.design .circle{
+    aspect-ratio: 1;
+    position:absolute;
+    border-radius: 50%;
+    top:50%;
+    left:70%;
+    transform: translate(-50%,-50%);
+}
+.circle:nth-child(1){
+    background-color: black;
+    width:25rem;
+}
+.circle:nth-child(2){
+    background-image: url('Snapchat-2102775590[1].jpg');
+    width:20rem;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border:0.5rem solid white;
+    box-shadow:0 0 1rem #fff,inset 0 0 1rem #fff,
+    0 0 2rem #3877ff, inset 0 0 2rem #3877ff,
+    0 0 4rem #3877ff, inset 0 0 4rem #3877ff
+}
+.content-1 h1{
+    color:white;
+    margin-left:3rem;
+    margin-top:4rem;
+}
+.content-1 P{
+    color:#5db9ff;
+    margin-top:4rem;
+    margin:2rem;
+    font-size:25px;
+}
+.content-1 ul{
+    color:#fff;
+}
+.project-container h1{
+    color:white;
+}
+.project-container p{
+    color: #03518d;
+    margin-top: 3rem;
+    margin-left:3rem;
+    font-size: 20px;
+
+}
+.project-container span{
+    margin-top: 6rem;
+    margin-left:3rem;
+    color:#fff;
+    font-size:25px;
+
+}
+.link{
+    color:#3877ff;
+    margin-left:3rem;
+    text-decoration: none;
+}
